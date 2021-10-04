@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simple opengl example", "Simple opengl example\Simple opengl example.vcxproj", "{AE1B3F55-CB74-4993-8A82-EC5012FC1526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE1B3F55-CB74-4993-8A82-EC5012FC1526}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE1B3F55-CB74-4993-8A82-EC5012FC1526}.Debug|Win32.Build.0 = Debug|Win32
+		{AE1B3F55-CB74-4993-8A82-EC5012FC1526}.Release|Win32.ActiveCfg = Release|Win32
+		{AE1B3F55-CB74-4993-8A82-EC5012FC1526}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
