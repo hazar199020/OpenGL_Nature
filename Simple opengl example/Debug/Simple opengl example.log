@@ -1,0 +1,44 @@
+﻿Build started 18/12/2019 11:47:39 م.
+     1>Project "D:\My Work\Nature3\Simple opengl example\Simple opengl example\Simple opengl example.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Simple opengl example.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\OpenGLLibrary-32\OpenGLLibrary-32\include" /AI"D:\OpenGLLibrary-32\OpenGLLibrary-32\lib" /ZI /nologo /W3 /WX- /Od /Oy- /D NDEBUG /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\opengllibrary-32\opengllibrary-32\include\trees.h(17966): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\opengllibrary-32\opengllibrary-32\include\trees.h(35909): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\opengllibrary-32\opengllibrary-32\include\trees.h(53852): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\opengllibrary-32\opengllibrary-32\include\circles2.h(9242): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\opengllibrary-32\opengllibrary-32\include\circles2.h(18461): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\opengllibrary-32\opengllibrary-32\include\circles2.h(27680): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(33): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(55): warning C4005: 'checkImageWidth' : macro redefinition
+                 d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(51) : see previous definition of 'checkImageWidth'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(56): warning C4005: 'checkImageHeight' : macro redefinition
+                 d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(52) : see previous definition of 'checkImageHeight'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(69): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(149): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(170): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(202): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(203): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(211): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(226): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(229): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(163): warning C4101: 'height' : unreferenced local variable
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(163): warning C4101: 'width' : unreferenced local variable
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(164): warning C4101: 'image' : unreferenced local variable
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(248): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(249): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(254): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(259): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\my work\nature3\simple opengl example\simple opengl example\main.cpp(260): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Work\Nature3\Simple opengl example\Debug\Nature.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\OpenGLLibrary-32\OpenGLLibrary-32\lib" winmm.lib GLU32.lib GLAUX.lib OPENGL32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\My Work\Nature3\Simple opengl example\Debug\Nature.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Work\Nature3\Simple opengl example\Debug\Nature.lib" /MACHINE:X86 /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup Debug\main.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         Simple opengl example.vcxproj -> D:\My Work\Nature3\Simple opengl example\Debug\Nature.exe
+     1>Done Building Project "D:\My Work\Nature3\Simple opengl example\Simple opengl example\Simple opengl example.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.35
